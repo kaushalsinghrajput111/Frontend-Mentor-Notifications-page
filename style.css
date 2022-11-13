@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: hsl(210, 60%, 98%);
+    font-family: 'Plus Jakarta Sans', sans-serif
+  }
+
+  .container {
+    background-color: hsl(0, 0%, 100%);
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+
+  }
+
+  .notification-head {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+  }
+
+  .left {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left h1 {
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  .left h3 {
+    padding: 0px 10px;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: hsl(219, 85%, 26%);
+    border-radius: 5px;
+  }
+
+  .right h2 {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .right h2:hover {
+    color: hsl(219, 85%, 26%);
+  }
+
+  .recent {
+    display: flex;
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+  .box2 {
+    flex-direction: column;
+  }
+
+  #first {
+    color: hsl(219, 12%, 42%);
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  #first:hover {
+    color: hsl(219, 85%, 26%);
+  }
+
+  i {
+    background-color: red;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 0px 10px;
+  }
+
+  .older {
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+  .older h3 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .recent h3 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .user-dp {
+    /* float: left; */
+    width: 50px;
+    margin: -6px 10px;
+  }
+
+  .username {
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  .username:hover {
+    color: hsl(219, 85%, 26%);
+  }
+
+  .comments {
+    margin: 10px 0px;
+  }
+
+  #comment {
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  #comment:hover {
+    background-color: hsl(211, 68%, 94%);
+    border: none;
+  }
+  .box2-flex{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .chess {
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  .chess:hover {
+    color: hsl(224, 21%, 14%);
+  }
+
+#chess-img{
+    width:45px;
+    cursor: pointer;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  @media (min-width:375px) and (max-width:425px) {
+    .container {
+      width: 100%;
+      border: none;
+    }
+  }
