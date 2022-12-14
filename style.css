@@ -161,7 +161,7 @@
     color: hsl(228, 45%, 44%);
   }
 
-  @media (min-width:375px) and (max-width:425px) {
+  @media (min-width:320px) and (max-width:425px) {
     .container {
       width: 100%;
       border: none;
